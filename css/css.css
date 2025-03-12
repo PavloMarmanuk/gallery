@@ -1,0 +1,31 @@
+.gallery-image {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+}
+
+.modal-dialog-centered {
+    max-width: 60%; 
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.modal-content {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.modal-img {
+    width: 40%; 
+    height: auto;
+}
+
+.gallery-description {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
